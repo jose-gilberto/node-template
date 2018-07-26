@@ -1,21 +1,16 @@
 'use strict'
 
-export default () => {
-    
+const sequelize = require('../database/database')
+
+const User = (sequelize, DataTypes) => {
+    return sequelize.define('users', {
+        firstName: {
+            type: DataTypes.STRING
+        },
+        lastName: {
+            type: DataTypes.STRING
+        }
+    })
 }
 
-/*
-const Sequelize = require('sequelize')
-const sequelize = require('../config/database')
-
-const User = sequelize.define('user', {
-    firstName: {
-        type: Sequelize.STRING
-    },
-    lastName: {
-        type: Sequelize.STRING
-    }
-})
-
 module.exports = User
-*/

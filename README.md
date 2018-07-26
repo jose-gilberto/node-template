@@ -54,7 +54,7 @@ Nesse diretório estão os testes referentes a qualquer arquivo do projeto.
 * [x] Organizar o start da aplicação
 * [x] Utilização do .env
 * [x] Organizar as configurações da aplicação
-* [ ] Organizar a conexão com o banco de dados
+* [x] Organizar a conexão com o banco de dados
 * [ ] Criar documentação
 * [ ] Criar middlewares
 * [ ] Criar exemplos de Models e Controllers
