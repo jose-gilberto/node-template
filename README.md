@@ -53,7 +53,7 @@ Nesse diretório estão os testes referentes a qualquer arquivo do projeto.
 * [x] Capturar os erros 400 e 500  
 * [x] Organizar o start da aplicação
 * [x] Utilização do .env
-* [ ] Organizar as configurações da aplicação
+* [x] Organizar as configurações da aplicação
 * [ ] Organizar a conexão com o banco de dados
 * [ ] Criar documentação
 * [ ] Criar middlewares
