@@ -8,6 +8,7 @@ exports.notFound = (req, res, next) => {
        .json({ message: DEFAULT_ERROR_NOTFOUND })
 }
 
+// Desativar em produção
 exports.logErrors = (err, req, res, next) => {
     console.log(err.stack)
     next(err)

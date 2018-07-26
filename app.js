@@ -1,7 +1,7 @@
 'use strict'
 
 // importando app
-const app = require('./bin/www')
+const app = require('./bin/server')
 const port = 8080
 
 app.listen(port, () => {

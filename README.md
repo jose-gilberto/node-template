@@ -49,9 +49,10 @@ Nesse diretório estão os testes referentes a qualquer arquivo do projeto.
 
 ### TODO:
 
-* [ ] Organizar diretórios  
-* [ ] Capturar os erros 400 e 500  
+* [x] Organizar diretórios  
+* [x] Capturar os erros 400 e 500  
 * [ ] Organizar o start da aplicação
+* [ ] Utilização do .env
 * [ ] Organizar as configurações da aplicação
 * [ ] Organizar a conexão com o banco de dados
 * [ ] Criar documentação
