@@ -51,14 +51,15 @@ Nesse diretório estão os testes referentes a qualquer arquivo do projeto.
 
 * [x] Organizar diretórios  
 * [x] Capturar os erros 400 e 500  
-* [ ] Organizar o start da aplicação
-* [ ] Utilização do .env
+* [x] Organizar o start da aplicação
+* [x] Utilização do .env
 * [ ] Organizar as configurações da aplicação
 * [ ] Organizar a conexão com o banco de dados
 * [ ] Criar documentação
 * [ ] Criar middlewares
 * [ ] Criar exemplos de Models e Controllers
 * [ ] Criar rotas padrões
+* [ ] Aplicar autenticação oAuth2 ou JWT
 * [ ] Criar testes para os exemplos de API
 * [ ] Criar comandos para a aplicação
 * [ ] Transferir servidor para Typescript

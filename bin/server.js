@@ -1,12 +1,13 @@
 'use strict'
 
 // importando módulos
+const path = require('path')
 const express = require('express')
 const logger = require('morgan')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const helmet = require('helmet')
-
+require('dotenv').config({ path: path.resolve('config/.env') })
 
 // carregando middlewares
 const middlewares = require('../middlewares')
@@ -17,7 +18,7 @@ const app = express()
 
 // registrando os middlewares
 middlewares.register(
-    logger('dev'), // configurando morgan
+    logger(process.env.APP_ENV || 'dev'), // configurando morgan
     // utilizando o helmet para segurança # http://expressjs.com/pt-br/advanced/best-practice-security.html
     helmet(),
     // configurando o body-parser
