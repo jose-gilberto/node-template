@@ -12,7 +12,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "make:env": "node ./fixtures/scripts/create_env.js",
     "make:route": "node ./fixtures/scripts/create_router.js",
-    "make:model": "node ./fixtures/scripts/create_model.js"
+    "make:model": "node ./fixtures/scripts/create_model.js",
+    "make:controller": "node ./fixtures/scripts/create_controller.js"
   },
   "author": "Gilberto Medeiros",
   "license": "ISC",
