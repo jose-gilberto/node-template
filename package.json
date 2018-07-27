@@ -11,7 +11,8 @@
     "start": "nodemon ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "make:env": "node ./fixtures/scripts/create_env.js",
-    "make:route": "node ./fixtures/scripts/create_router.js"
+    "make:route": "node ./fixtures/scripts/create_router.js",
+    "make:model": "node ./fixtures/scripts/create_model.js"
   },
   "author": "Gilberto Medeiros",
   "license": "ISC",
