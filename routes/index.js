@@ -5,7 +5,8 @@ const router = express.Router()
 const userController = require('../controllers/userController')
 
 router.get('/', (req, res) => {
-    res.send('HOME PAGE')
+    res.status(200)
+       .json({ mensagem: 'Bem vindo ao Node-Template!' })
 })
 
 router.get('/users', userController.findAll)

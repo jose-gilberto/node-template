@@ -10,7 +10,8 @@
   "scripts": {
     "start": "nodemon ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "make:env": "node ./fixtures/scripts/create_env.js"
+    "make:env": "node ./fixtures/scripts/create_env.js",
+    "make:route": "node ./fixtures/scripts/create_router.js"
   },
   "author": "Gilberto Medeiros",
   "license": "ISC",
