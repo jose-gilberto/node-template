@@ -65,4 +65,34 @@ No lugar do parâmetro `<router-name>` basta passar o nome do seu Router, lembra
 
 Agora basta configurar seu Router na pasta `Router` com as rotas, importando sua controller para utilizar as funções.
 
-## Esqueleto
+## Esqueleto da aplicação
+
+### Bin
+Nesta pasta estão todos os arquivos essênciais para o start da aplicação.
+
+### Config
+Nesta pasta estão todas as configurações nescessárias para rodar a aplicação, tais como app_name, porta, dados do banco e chaves de segurança.
+
+### Controllers
+Nesta pasta estão os controladores, que por sua vez fazem o intermédio das chamadas de funções das Model e as rotas. Por exemplo, a rota x precisa chamar a função y da model z. Quem realiza esse trabalho é o Controller.
+
+### Database
+Nesta pasta estão todos os arquivos de conexão com banco de dados.
+
+### Doc
+Nesta pasta se encontra toda a documentação detalhada da aplicação, bem como, instação, requerimentos, recursos e ferramentas.
+
+### Fixtures
+Nesta pasta estão os arquivos que vizam solucionar problemas específicos da aplicação.
+
+### Middlewares
+Nesta pasta estão todos os middlewares utilizados na aplicação.
+
+### Models
+Nesta pasta estão todas as Models, ou seja, todas as entidades que são referenciadas do banco de dados e podem ser utilizadas na aplicação, tanto por Controllers como por qualquer outro arquivo.
+
+### Routes
+Nesta pasta estão todas as Rotas da aplicação, todo mapeamento dividido em arquivos específicos separando as rotas por recursos ou entidades.
+
+### Tests
+Nesta pasta estão todos os tests referentes a qualquer arquivo da aplicação, tanto para APIs quanto para arquivos diversos que necessitam de testes automatizados.

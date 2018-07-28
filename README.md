@@ -15,7 +15,7 @@
 * [x] Utilização do .env
 * [x] Organizar as configurações da aplicação
 * [x] Organizar a conexão com o banco de dados
-* [ ] Criar documentação
+* [x] Criar documentação
 * [ ] Criar middlewares
 * [ ] Criar exemplos de Models e Controllers
 * [ ] Criar rotas padrões
