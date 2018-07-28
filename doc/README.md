@@ -1,41 +1,68 @@
-# Esqueleto da aplicação
 
-## Bin
+# Node-Template
 
-Arquivos para iniciação da aplicação.
+Estrutura de arquivos baseadas em um template para Node, Express e Sequelize.
 
-## Config
+## Instalação
 
-Neste diretório estão localizados os arquivos de configurações da aplicação. Tais como informações que dão origens a iniciação do projeto ou chaves de segurança que serão ignoradas pela ferramenta de versionamento.
+1. Clone o repositório com o comando `git clone https://github.com/jose-gilberto/node-template`
+2. Instale as dependências usando o `npm install`
+3. Execute o comando `npm run make:env` para criar o arquivo de configuração da aplicação
+4. Altere o arquivo `.env` localizado na pasta config com suas variáveis de ambiente
+5. Execute o comando `npm run start` para iniciar a aplicação
+6. Acesse: http://localhost:8080
 
-## Controllers
+## Issues
+Para reportar uma Issue basta acessar o link https://github.com/jose-gilberto/node-template/issues e clicar em New Issue.
 
-Os controllers controlam e reunem componentes construídos com base nos conceitos mostrados e direcionam eles a seus objetivos.
+As Issues serão resolvidas conforme a ordem e a urgência.
 
-## Database
+## Ferramentas
 
-Aqui ficam as configurações e conexões com os bancos de dados da aplicação.
+### Node-TCLI
 
-## Doc
+No node-template pode-se usar de scripts para criar Rotas, Models e Controllers mais facilmente. Além de, poder criar o arquivo .env nos padrões pré-definidos do projeto.
 
-Nesse diretório são encontrados os endpoints fornecidos pela API do projeto, todos documentados para que a manutenção seja facilitada.
+#### Criação do `.env`
 
-## Fixtures
+Para criar o arquivo `.env` de sua aplicação basta seguir os seguintes passos:  
+Execute o comando `npm run make:env`  
+Agora basta alterar o arquivo que foi criado dentro da pasta `config/.env` com as suas variáveis de ambiente.
 
-Aqui são encontrados trechos de códigos para resolver problemas específicos encontrados no sistema.
+#### Criação de Models
 
-## Middlewares
+Para criar uma model basta seguir os seguintes passos:  
+Execute o comando `npm run make:model <model-name>`  
+No lugar do parâmetro `<model-name>` basta passar o nome da sua Model, lembrando que:  
+* O nome da model não pode conter números;
+* Não pode conter caracteres especiais;
+* Não pode conter espaços nem nada além de letras.
 
-Aqui ficam localizados todos os middlewares da aplicação que serão importados posteriormente.
 
-## Models
+Agora basta configurar sua model localizada na pasta `models`, utilizando o Sequelize, pode-se definir os atributos dela no JSON especificado pelo comentário.
 
-Aqui estão localizadas todas as models que serão usadas pela aplicação, de preferencia utilizando algum ORM de banco de dados (ex.: Sequelize).
+#### Criação de Controllers
 
-## Routes
+Para cria um controller basta seguir os seguintes passos:  
+Execute o comando `npm run make:controller <controller-name>`  
+No lugar do parâmetro `<controller-name>` basta passar o nome do seu Controller, lembrando que:  
+* O nome da controller não pode conter a palavra Controller ou Controlle;
+* Não pode conter caracteres especiais;
+* Não pode conter espaços nem nada além de letras.
 
-Aqui são localizadas todas as rotas da aplicação.
 
-## Tests
+Agora basta configurar seu Controller na pasta `controllers`, utilizando o Sequelize para importar suas models e definindo novas funções.
 
-Nesse diretório estão os testes referentes a qualquer arquivo do projeto.
+#### Criação de Routers
+
+Para criar um Router basta seguir os seguintes passos:  
+Execute o comando `npm run make:router <router-name>`  
+No lugar do parâmetro `<router-name>` basta passar o nome do seu Router, lembrando que:  
+* O nome do Router não pode conter a palavra Router ou Route;
+* Não pode conter caracteres especiais;
+* Não pode conter espaços nem nada além de letras.
+
+
+Agora basta configurar seu Router na pasta `Router` com as rotas, importando sua controller para utilizar as funções.
+
+## Esqueleto
