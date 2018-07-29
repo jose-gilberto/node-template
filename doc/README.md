@@ -19,6 +19,10 @@ As Issues serão resolvidas conforme a ordem e a urgência.
 
 ## Ferramentas
 
+### Testing
+
+Para iniciar os testes basta executar o comando `npm run test`.
+
 ### Node-TCLI
 
 No node-template pode-se usar de scripts para criar Rotas, Models e Controllers mais facilmente. Além de, poder criar o arquivo .env nos padrões pré-definidos do projeto.

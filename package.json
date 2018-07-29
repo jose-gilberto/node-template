@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "nodemon ./app.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --timeout 10000 --recursive ./tests/",
     "make:env": "node ./fixtures/scripts/create_env.js",
     "make:route": "node ./fixtures/scripts/create_router.js",
     "make:model": "node ./fixtures/scripts/create_model.js",

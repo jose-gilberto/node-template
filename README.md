@@ -20,9 +20,10 @@
 * [x] Criar exemplos de Models e Controllers
 * [x] Criar rotas padrões
 * [ ] Aplicar autenticação oAuth2 ou JWT
-* [ ] Criar testes para os exemplos de API
+* [x] Criar testes para os exemplos de API
 * [x] Criar comandos para a aplicação
 * [ ] Transferir servidor para Typescript
+* [ ] Adicionando suporte ao MongoDB
 
 ---
 Desenvolvido por [José Gilberto](https://github.com/jose-gilberto).
