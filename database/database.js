@@ -21,6 +21,7 @@ const sequelize = new Sequelize({
     password: passwd,
     dialect: dialect,
     operatorsAliases: false,
+    logging: false
     //pool: {
     //    max: 5,
     //    min: 0,

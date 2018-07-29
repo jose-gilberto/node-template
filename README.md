@@ -16,12 +16,12 @@
 * [x] Organizar as configurações da aplicação
 * [x] Organizar a conexão com o banco de dados
 * [x] Criar documentação
-* [ ] Criar middlewares
-* [ ] Criar exemplos de Models e Controllers
-* [ ] Criar rotas padrões
+* [x] Criar middlewares
+* [x] Criar exemplos de Models e Controllers
+* [x] Criar rotas padrões
 * [ ] Aplicar autenticação oAuth2 ou JWT
 * [ ] Criar testes para os exemplos de API
-* [ ] Criar comandos para a aplicação
+* [x] Criar comandos para a aplicação
 * [ ] Transferir servidor para Typescript
 
 ---

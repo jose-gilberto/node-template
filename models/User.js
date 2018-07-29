@@ -4,12 +4,14 @@ const sequelize = require('../database/database')
 
 const User = (sequelize, DataTypes) => {
     return sequelize.define('users', {
-        firstName: {
+        nome: {
             type: DataTypes.STRING
         },
-        lastName: {
+        sobrenome: {
             type: DataTypes.STRING
         }
+    }, {
+        timestamps: false
     })
 }
 

@@ -2,13 +2,17 @@
 
 const express = require('express')
 const router = express.Router()
-const userController = require('../controllers/userController')
+const middlewares = require('../middlewares')
+
+// importando rotas adicionais
+const userRouter = require('./userRouter')
 
 router.get('/', (req, res) => {
     res.status(200)
        .json({ mensagem: 'Bem vindo ao Node-Template!' })
 })
 
-router.get('/users', userController.findAll)
+// aplicando rotas adicionais
+router.use('/user', userRouter)
 
 module.exports = router
